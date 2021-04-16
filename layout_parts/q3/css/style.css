@@ -19,13 +19,15 @@
   line-height: 22px;
 }
 
-.dish th, .dish td {
+.dish th,
+.dish td {
   border: solid #dedede 1px;
   padding: 10px;
   vertical-align: middle;
 }
 
-.dish th, .dish thead:first-child {
+.dish th,
+.dish thead:first-child {
   color: white;
 }
 

@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .one {
@@ -33,56 +34,56 @@
   height: 20px;
   top: 80px;
   left: 0;
-  z-index: 10000;
+  z-index: 80;
 }
 
 .two {
   background-color: #7084de;
   top: 120px;
   left: 280px;
-  z-index: 1001;
+  z-index: 10;
 }
 
 .three {
   background-color: #d0ecea;
   left: 360px;
   top: 200px;
-  z-index: 1002;
+  z-index: 20;
 }
 
 .four {
   background-color: #8b7a5e;
   left: 280px;
   top: 280px;
-  z-index: 1003;
+  z-index: 30;
 }
 
 .five {
   background-color: #9fd6d2;
   left: 200px;
   top: 360px;
-  z-index: 1004;
+  z-index: 40;
 }
 
 .six {
   background-color: #fffee4;
   left: 120px;
   top: 280px;
-  z-index: 1005;
+  z-index: 50;
 }
 
 .seven {
   background-color: #deae70;
   left: 40px;
   top: 200px;
-  z-index: 1006;
+  z-index: 60;
 }
 
 .eight {
   background-color: #de70cf;
   left: 120px;
   top: 120px;
-  z-index: 1007;
+  z-index: 70;
 }
 
 .nine {

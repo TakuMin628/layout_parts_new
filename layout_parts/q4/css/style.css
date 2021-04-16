@@ -1,10 +1,20 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.parent,.two_parent{
+.around {
+  background-color: #eff3f4;
+  padding: 20px;
+}
+
+.parent {
   display: table;
   width: 100%;
   text-align: center;
+  margin-top: 20px;
+}
+
+.parent:first-child {
+  margin-top: 0;
 }
 
 .fixed {
@@ -23,7 +33,7 @@
 }
 
 .purple {
-  background-color: #e0adb9;
+  background-color: #e0abd9;
 }
 
 .blue {
@@ -38,7 +48,10 @@ background-color: #b6d8ed;
   background-color: #ec8f9a;
 }
 
-.green {
+.fixed_green {
   background-color: #8fdcad;
+  display: table-cell;
+  width: 500px;
+  padding: 20px 0;
 }
 /* 回答はここに書いてね */
