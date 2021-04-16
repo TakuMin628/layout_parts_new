@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.dish {
+  text-align: center;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
 
+.dish th {
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.dish td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.dish th, .dish td {
+  border: solid #dedede 1px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.dish th, .dish thead:first-child {
+  color: white;
+}
+
+.dish tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.dish tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */

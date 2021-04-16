@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.around {
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.one {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+}
+
+.one::before {
+  content: '';
+  position: absolute;
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  top: 80px;
+  left: 0;
+  z-index: 10000;
+}
+
+.two {
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 1001;
+}
+
+.three {
+  background-color: #d0ecea;
+  left: 360px;
+  top: 200px;
+  z-index: 1002;
+}
+
+.four {
+  background-color: #8b7a5e;
+  left: 280px;
+  top: 280px;
+  z-index: 1003;
+}
+
+.five {
+  background-color: #9fd6d2;
+  left: 200px;
+  top: 360px;
+  z-index: 1004;
+}
+
+.six {
+  background-color: #fffee4;
+  left: 120px;
+  top: 280px;
+  z-index: 1005;
+}
+
+.seven {
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 1006;
+}
+
+.eight {
+  background-color: #de70cf;
+  left: 120px;
+  top: 120px;
+  z-index: 1007;
+}
+
+.nine {
+  position: fixed;
+  background-color: #2b69a3;
+  top: 10px;
+  left: 10px;
+}
 
 /* 回答はここに書いてね */
