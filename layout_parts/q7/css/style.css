@@ -11,19 +11,15 @@
   overflow: auto;
 }
 
-.left_float,
-.right_float {
+.float_box {
   width: 225px;
   box-sizing: border-box;
-}
-
-.left_float {
   float: left;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
-.right_float {
-  float: right;
+.float_box:first-child {
+  margin: 0;
 }
 
 
@@ -37,17 +33,14 @@
 .table_cell {
   display: table-cell;
   vertical-align: middle;
-  padding-right: 50px;
+  padding-left: 50px;
+  width: 225px;
 }
 
-.table_cell:last-child {
-  padding-right: 0;
+.table_cell:first-child {
+  padding-left: 0;
 }
 
-.table_left,
-.table_right {
-  width: 205px;
-}
 
 
 
